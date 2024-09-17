@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* para criar variáveis utilize $nomedavariavel */
+section {
+  font-family: "Lucida Grande";
+  font-weight: bold; }
+
+body {
+  color: #333; }
+
+a {
+  color: red; }
+
+p {
+  margin: 20px 0; }
+
+nav {
+  width: 100%;
+  background: #000; }
+  nav ul {
+    list-style: none; }
+  nav li {
+    color: #fff;
+    display: inline-block; }
+
+nav {
+  font-family: "Times New Roman", Times,serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold; }
+
+/* O & é a classe para não ficar repetindo 'a' */
+a {
+  color: #ffa; }
+  a:hover {
+    color: #ffe; }

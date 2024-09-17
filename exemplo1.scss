@@ -1,0 +1,52 @@
+/* para criar variáveis utilize $nomedavariavel */
+/* node-sass --watch  nome.scss nome.css para renderizar */
+
+$font:"Lucida Grande";
+$weight: bold;
+
+section{
+    font-family:$font;
+    font-weight: $weight;
+}
+body{
+    color:#333;
+}
+
+a{
+    color: red;
+}
+
+p{
+    margin: 20px 0;
+}
+
+nav{
+    width: 100%;
+    background: #000;
+    ul{
+        list-style: none;
+    }
+    li{
+        color: #fff;
+        display: inline-block;
+    }
+}
+
+nav{
+    font: {
+        family: "Times New Roman",
+        Times,serif;
+        style:italic;
+        size: 30px;
+        weight: bold;
+    }
+}
+
+/* O & é a classe para não ficar repetindo 'a' */
+a {
+    color: #ffa;
+    &:hover{
+        color: #ffe;
+    }
+}
+
